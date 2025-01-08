@@ -3,8 +3,7 @@ description: "Sync a directory to an AWS S3 repository"
 author: jakejarvis
 runs:
   using: docker
-  image: docker://amazon/aws-cli:2.22.30
+  image: docker://bitnami/aws-cli:1.18.20-debian-10-r0
 branding:
   icon: refresh-cw
   color: green
-  
